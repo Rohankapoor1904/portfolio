@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rohan Kapoor - Software Developer specializing in Web, Android, and Python development. Building scalable solutions with modern technologies.">
+    <meta name="keywords" content="Rohan Kapoor, Software Developer, Web Developer, Android Developer, Python Developer, Full Stack, React, Django">
+    <meta name="author" content="Rohan Kapoor">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rohan Kapoor | Software Developer">
+    <meta property="og:description" content="Passionate software developer building responsive websites, interactive platforms, and automation tools.">
+    <meta property="og:url" content="https://rohankapoor.dev">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rohan Kapoor | Software Developer">
+    <meta name="twitter:description" content="Passionate software developer building responsive websites, interactive platforms, and automation tools.">
+    
+    <title>Rohan Kapoor | Software Developer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- Cursor Effect -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Loading Screen -->
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+            </div>
+            <span class="loader-text">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">&lt;RK/&gt;</span>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="greeting" data-aos="fade-right" data-aos-delay="100">Hello, I'm</span>
+                <h1 class="hero-title" data-aos="fade-right" data-aos-delay="200">
+                    <span class="name-highlight">Rohan Kapoor</span>
+                </h1>
+                <div class="typewriter-container" data-aos="fade-right" data-aos-delay="300">
+                    <span class="static-text">I'm a </span>
+                    <span class="typewriter"></span>
+                    <span class="cursor-blink">|</span>
+                </div>
+                <p class="hero-description" data-aos="fade-right" data-aos-delay="400">
+                    Passionate about building responsive websites, interactive platforms, 
+                    and automation tools. Eager to integrate AI to enhance performance 
+                    while developing scalable solutions. Currently pursuing B.Tech in CSE 
+                    at Kurukshetra University with hands-on experience in real-world projects.
+                </p>
+                <div class="hero-stats" data-aos="fade-right" data-aos-delay="450">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="6">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="2">0</span>
+                        <span class="stat-label">Internships</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="7">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="3">0</span>
+                        <span class="stat-label">Languages</span>
+                    </div>
+                </div>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="500">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+                <div class="hero-social" data-aos="fade-up" data-aos-delay="600">
+                    <a href="https://github.com/Rohankapoor1904" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/rohankapoor1904" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:rohankapoor1904@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-delay="400">
+                <div class="image-container">
+                    <div class="blob"></div>
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    <div class="floating-icons">
+                        <div class="floating-icon icon-1"><i class="fab fa-python"></i></div>
+                        <div class="floating-icon icon-2"><i class="fab fa-react"></i></div>
+                        <div class="floating-icon icon-3"><i class="fab fa-android"></i></div>
+                        <div class="floating-icon icon-4"><i class="fab fa-js"></i></div>
+                        <div class="floating-icon icon-5"><i class="fab fa-java"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="800">
+            <a href="#about">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Scroll Down</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Get To Know</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right" data-aos-delay="200">
+                    <div class="image-wrapper">
+                        <div class="about-img-placeholder">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="experience-badge">
+                            <span class="exp-number">2+</span>
+                            <span class="exp-text">Years of<br>Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left" data-aos-delay="300">
+                    <div class="about-cards">
+                        <div class="about-card" data-aos="zoom-in" data-aos-delay="400">
+                            <i class="fas fa-award"></i>
+                            <h3>Experience</h3>
+                            <p>2 Internships<br><small>6+ Months Total</small></p>
+                        </div>
+                        <div class="about-card" data-aos="zoom-in" data-aos-delay="500">
+                            <i class="fas fa-project-diagram"></i>
+                            <h3>Projects</h3>
+                            <p>6+ Completed<br><small>Web, Mobile, Bots</small></p>
+                        </div>
+                        <div class="about-card" data-aos="zoom-in" data-aos-delay="600">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Education</h3>
+                            <p>B.Tech CSE<br><small>2021 - Present</small></p>
+                        </div>
+                        <div class="about-card" data-aos="zoom-in" data-aos-delay="700">
+                            <i class="fas fa-code-branch"></i>
+                            <h3>Commits</h3>
+                            <p>500+<br><small>On GitHub</small></p>
+                        </div>
+                    </div>
+                    <p class="about-description" data-aos="fade-up" data-aos-delay="800">
+                        I am an enthusiastic software developer with experience in web, Android, and Python 
+                        application development. My journey in tech started with a curiosity for how things work, 
+                        which evolved into a passion for building solutions that make a difference. I'm skilled in 
+                        creating responsive websites, interactive platforms, and automation tools using various technologies.
+                    </p>
+                    <p class="about-description" data-aos="fade-up" data-aos-delay="900">
+                        Having completed internships at YHills (Android & Full-Stack) and Novem Controls (Python/Django), 
+                        I've gained hands-on experience in agile development, code reviews, and building production-ready 
+                        applications. My projects range from weather applications and Telegram bots to Chrome extensions 
+                        and web scrapers. I'm particularly interested in AI integration and building scalable solutions.
+                    </p>
+                    <p class="about-description" data-aos="fade-up" data-aos-delay="1000">
+                        Currently pursuing B.Tech in Computer Science & Engineering at Kurukshetra University, 
+                        I'm constantly learning and exploring new technologies. When I'm not coding, you'll find me 
+                        exploring open-source projects, contributing to tech communities, or working on personal projects 
+                        that challenge my skills.
+                    </p>
+                    <div class="about-info" data-aos="fade-up" data-aos-delay="1100">
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-user"></i> Name:</span>
+                            <span class="info-value">Rohan Kapoor</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-envelope"></i> Email:</span>
+                            <span class="info-value">rohankapoor1904@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-phone"></i> Phone:</span>
+                            <span class="info-value">+91 95184 37415</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-map-marker-alt"></i> Location:</span>
+                            <span class="info-value">Kurukshetra, Haryana</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-language"></i> Languages:</span>
+                            <span class="info-value">English, Hindi, Punjabi</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-briefcase"></i> Status:</span>
+                            <span class="info-value available">Available for Work</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-birthday-cake"></i> DOB:</span>
+                            <span class="info-value">April 19, 2004</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-heart"></i> Interests:</span>
+                            <span class="info-value">AI, Open Source, Gaming</span>
+                        </div>
+                    </div>
+                    <div class="about-buttons" data-aos="fade-up" data-aos-delay="1200">
+                    <a href="rohan_kapoor.pdf" class="btn btn-primary" download>
+                        <span>Download CV</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Hire Me</span>
+                        <i class="fas fa-handshake"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">What I Offer</span>
+                <h2 class="section-title">My Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building responsive, modern websites using HTML5, CSS3, JavaScript, React.js, and Bootstrap. From landing pages to complex web applications.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Responsive Design</li>
+                        <li><i class="fas fa-check"></i> SEO Optimization</li>
+                        <li><i class="fas fa-check"></i> Performance Focused</li>
+                        <li><i class="fas fa-check"></i> Cross-browser Compatible</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fab fa-android"></i>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3>Android Development</h3>
+                    <p>Creating native Android applications using Java and Kotlin with clean architecture, intuitive UI/UX, and seamless performance.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Native Development</li>
+                        <li><i class="fas fa-check"></i> Material Design</li>
+                        <li><i class="fas fa-check"></i> API Integration</li>
+                        <li><i class="fas fa-check"></i> Play Store Publishing</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fab fa-python"></i>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3>Python Development</h3>
+                    <p>Developing automation tools, web scrapers, bots, and backend services using Python, Django, and various APIs.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Django Web Apps</li>
+                        <li><i class="fas fa-check"></i> Automation Scripts</li>
+                        <li><i class="fas fa-check"></i> Bot Development</li>
+                        <li><i class="fas fa-check"></i> API Development</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3>Bot Development</h3>
+                    <p>Building intelligent Telegram and Discord bots with AI integration, premium features, and scalable architecture.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Telegram Bots</li>
+                        <li><i class="fas fa-check"></i> Discord Bots</li>
+                        <li><i class="fas fa-check"></i> AI Integration</li>
+                        <li><i class="fas fa-check"></i> Premium Features</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3>Browser Extensions</h3>
+                    <p>Developing Chrome extensions for productivity, data extraction, and enhanced browsing experiences.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Chrome Extensions</li>
+                        <li><i class="fas fa-check"></i> Data Extraction</li>
+                        <li><i class="fas fa-check"></i> Productivity Tools</li>
+                        <li><i class="fas fa-check"></i> Custom Solutions</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3>Backend & APIs</h3>
+                    <p>Building robust backend systems, RESTful APIs, and database solutions for scalable applications.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> RESTful APIs</li>
+                        <li><i class="fas fa-check"></i> Database Design</li>
+                        <li><i class="fas fa-check"></i> Authentication</li>
+                        <li><i class="fas fa-check"></i> Cloud Deployment</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">My Abilities</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+            <div class="skills-content">
+                <!-- Programming Languages -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Programming Languages
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="150">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="250">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="skill-icon">
+                                <i class="fas fa-copyright"></i>
+                            </div>
+                            <span class="skill-name">C/C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="350">
+                            <div class="skill-icon kotlin-icon">K</div>
+                            <span class="skill-name">Kotlin</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="category-title">
+                        <i class="fas fa-globe"></i>
+                        Web Development
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="250">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="350">
+                            <div class="skill-icon">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <span class="skill-name">Bootstrap</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span class="skill-name">React.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Tools & Platforms
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="350">
+                            <div class="skill-icon">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <span class="skill-name">Android Studio</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="450">
+                            <div class="skill-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <span class="skill-name">GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="skill-name">VS Code</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category soft-skills" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="category-title">
+                        <i class="fas fa-users"></i>
+                        Soft Skills
+                    </h3>
+                    <div class="soft-skill-tags">
+                        <span class="soft-tag" data-aos="flip-up" data-aos-delay="450">
+                            <i class="fas fa-users"></i> Team Collaboration
+                        </span>
+                        <span class="soft-tag" data-aos="flip-up" data-aos-delay="500">
+                            <i class="fas fa-lightbulb"></i> Problem Solving
+                        </span>
+                        <span class="soft-tag" data-aos="flip-up" data-aos-delay="550">
+                            <i class="fas fa-clock"></i> Time Management
+                        </span>
+                        <span class="soft-tag" data-aos="flip-up" data-aos-delay="600">
+                            <i class="fas fa-sync-alt"></i> Adaptability
+                        </span>
+                        <span class="soft-tag" data-aos="flip-up" data-aos-delay="650">
+                            <i class="fas fa-comments"></i> Communication
+                        </span>
+                        <span class="soft-tag" data-aos="flip-up" data-aos-delay="700">
+                            <i class="fas fa-brain"></i> Critical Thinking
+                        </span>
+                        <span class="soft-tag" data-aos="flip-up" data-aos-delay="750">
+                            <i class="fas fa-rocket"></i> Quick Learner
+                        </span>
+                        <span class="soft-tag" data-aos="flip-up" data-aos-delay="800">
+                            <i class="fas fa-tasks"></i> Project Management
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">My Journey</span>
+                <h2 class="section-title">Experience & Education</h2>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline">
+                    <!-- Education Timeline -->
+                    <div class="timeline-section" data-aos="fade-right">
+                        <h3 class="timeline-title">
+                            <i class="fas fa-graduation-cap"></i>
+                            Education
+                        </h3>
+                        <div class="timeline-items">
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-date">
+                                        <i class="fas fa-calendar"></i>
+                                        August 2021 – Present
+                                    </div>
+                                    <h4>B.Tech in Computer Science & Engineering</h4>
+                                    <h5>Kurukshetra University, Haryana</h5>
+                                    <p>Pursuing Bachelor's degree with focus on software development, 
+                                       algorithms, data structures, and emerging technologies. Active 
+                                       participant in coding competitions and technical workshops.</p>
+                                    <ul class="timeline-list">
+                                        <li>Relevant Coursework: DSA, DBMS, OS, Computer Networks, AI/ML</li>
+                                        <li>Member of University Coding Club</li>
+                                        <li>Participated in multiple hackathons and tech events</li>
+                                    </ul>
+                                    <div class="timeline-tags">
+                                        <span>DSA</span>
+                                        <span>OOP</span>
+                                        <span>Software Engineering</span>
+                                        <span>DBMS</span>
+                                        <span>AI/ML</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-date">
+                                        <i class="fas fa-calendar"></i>
+                                        2019 – 2021
+                                    </div>
+                                    <h4>Class XII (High School) - Science Stream</h4>
+                                    <h5>Army School, Nagaland</h5>
+                                    <p>Completed higher secondary education with strong foundation 
+                                       in Science (PCM) and Mathematics. Developed initial interest 
+                                       in programming and technology.</p>
+                                    <div class="timeline-tags">
+                                        <span>Physics</span>
+                                        <span>Chemistry</span>
+                                        <span>Mathematics</span>
+                                        <span>Computer Science</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work Timeline -->
+                    <div class="timeline-section" data-aos="fade-left">
+                        <h3 class="timeline-title">
+                            <i class="fas fa-briefcase"></i>
+                            Work Experience
+                        </h3>
+                        <div class="timeline-items">
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-date">
+                                        <i class="fas fa-calendar"></i>
+                                        August 2024 – December 2024
+                                    </div>
+                                    <h4>Android & Full-Stack Developer Intern</h4>
+                                    <h5><i class="fas fa-building"></i> YHills | Remote</h5>
+                                    <p class="internship-summary">Worked on production-ready mobile applications and full-stack development projects, gaining hands-on experience with modern development practices.</p>
+                                    <ul class="timeline-list">
+                                        <li>Built a production-ready 'Weather App' in Android Studio using Java and Kotlin</li>
+                                        <li>Implemented clean architecture (MVVM) and intuitive UI for reliable forecasts</li>
+                                        <li>Integrated OpenWeatherMap API for real-time weather data and 15-day forecasts</li>
+                                        <li>Developed end-to-end features across front-end and backend systems</li>
+                                        <li>Created responsive interfaces and scalable RESTful APIs</li>
+                                        <li>Collaborated with senior developers in agile sprints and code reviews</li>
+                                    </ul>
+                                    <div class="timeline-tags">
+                                        <span>Android</span>
+                                        <span>Java</span>
+                                        <span>Kotlin</span>
+                                        <span>REST API</span>
+                                        <span>MVVM</span>
+                                        <span>Git</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-date">
+                                        <i class="fas fa-calendar"></i>
+                                        July 2023 – September 2023
+                                    </div>
+                                    <h4>Python Coder Intern</h4>
+                                    <h5><i class="fas fa-building"></i> Novem Controls Pvt. Ltd. | On-site</h5>
+                                    <p class="internship-summary">Contributed to Django-based web applications, focusing on backend development, testing, and API implementation.</p>
+                                    <ul class="timeline-list">
+                                        <li>Collaborated with senior developers on Django web application development</li>
+                                        <li>Contributed to models, views, and templates with clean, documented code</li>
+                                        <li>Participated in daily code reviews and pair programming sessions</li>
+                                        <li>Wrote comprehensive unit tests using Django's testing framework (TDD)</li>
+                                        <li>Implemented RESTful endpoints and CI-friendly test suites</li>
+                                        <li>Improved code coverage by 25% through systematic test implementation</li>
+                                    </ul>
+                                    <div class="timeline-tags">
+                                        <span>Python</span>
+                                        <span>Django</span>
+                                        <span>REST API</span>
+                                        <span>TDD</span>
+                                        <span>PostgreSQL</span>
+                                        <span>CI/CD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">My Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-filter" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="android">Android</button>
+                <button class="filter-btn" data-filter="extension">Extension</button>
+                <button class="filter-btn" data-filter="bot">Bot</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Weather App -->
+                <div class="project-card" data-category="android" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-cloud-sun"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <a href="https://github.com/Rohankapoor1904" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <span class="project-badge">Featured</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Android App</span>
+                        <h3 class="project-title">Weather Application</h3>
+                        <p class="project-description">
+                            A comprehensive weather application providing real-time updates with location-based 
+                            information, 15-day forecasts, and global location search. Features include automatic 
+                            user detection, weather alerts, and beautiful UI with weather-based themes.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check-circle"></i> Real-time Updates</span>
+                            <span><i class="fas fa-check-circle"></i> 15-Day Forecast</span>
+                            <span><i class="fas fa-check-circle"></i> Location Detection</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Kotlin</span>
+                            <span>Android Studio</span>
+                            <span>OpenWeatherMap API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Telegram Bot -->
+                <div class="project-card" data-category="bot" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-placeholder telegram">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <a href="https://github.com/Rohankapoor1904" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <span class="project-badge hot">Hot</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Bot Development</span>
+                        <h3 class="project-title">Telegram Chat Bot</h3>
+                        <p class="project-description">
+                            Advanced modular Telegram bot featuring AI-powered responses, Discord connectivity, 
+                            Google Drive integration for file uploads, premium user management system, 
+                            media scraping, and comprehensive logging mechanisms.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check-circle"></i> AI Integration</span>
+                            <span><i class="fas fa-check-circle"></i> Premium System</span>
+                            <span><i class="fas fa-check-circle"></i> Multi-platform</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Telegram API</span>
+                            <span>Discord API</span>
+                            <span>AI/ML</span>
+                            <span>Redis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movie Website -->
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-placeholder movie">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <a href="https://github.com/Rohankapoor1904" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Development</span>
+                        <h3 class="project-title">Movie Website</h3>
+                        <p class="project-description">
+                            A fully responsive movie website featuring ratings, reviews, trailers, and 
+                            detailed movie information. Includes search functionality, genre filtering, 
+                            and adaptive design for seamless experience across all devices.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check-circle"></i> Responsive Design</span>
+                            <span><i class="fas fa-check-circle"></i> Search & Filter</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>TMDb API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Emoji Paradise -->
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-placeholder emoji">
+                            <i class="fas fa-smile-beam"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <a href="https://github.com/Rohankapoor1904" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Platform</span>
+                        <h3 class="project-title">Emoji Paradise</h3>
+                        <p class="project-description">
+                            Interactive web platform for downloading and creating custom emojis and GIFs. 
+                            Features social media integration with Telegram, Discord, and WhatsApp channels 
+                            for community engagement and content sharing.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check-circle"></i> Emoji Creator</span>
+                            <span><i class="fas fa-check-circle"></i> Social Integration</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Canvas API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Link Extractor -->
+                <div class="project-card" data-category="extension" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <div class="project-placeholder extension">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <a href="https://github.com/Rohankapoor1904" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Chrome Extension</span>
+                        <h3 class="project-title">Link Extractor</h3>
+                        <p class="project-description">
+                            Powerful Chrome extension designed to extract and organize all links from 
+                            Telegram or Discord channels. Features bulk link management, export options, 
+                            and filtering capabilities for enhanced data accessibility.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check-circle"></i> Bulk Extraction</span>
+                            <span><i class="fas fa-check-circle"></i> Export Options</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Chrome API</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Website Scraper -->
+                <div class="project-card" data-category="extension" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-image">
+                        <div class="project-placeholder scraper">
+                            <i class="fas fa-spider"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <a href="https://github.com/Rohankapoor1904" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Chrome Extension</span>
+                        <h3 class="project-title">Website Scraper</h3>
+                        <p class="project-description">
+                            Efficient browser extension for extracting text, images, and links from websites. 
+                            Features optimized performance, user-friendly interface, and multiple export formats 
+                            for simplified data collection and management.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check-circle"></i> Multi-format Export</span>
+                            <span><i class="fas fa-check-circle"></i> Fast Performance</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Chrome API</span>
+                            <span>DOM Manipulation</span>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+                    <h3>Let's talk about everything!</h3>
+                    <p>
+                        I'm always excited to discuss new projects, creative ideas, or opportunities to be 
+                        part of your vision. Whether you need a website, mobile app, automation tool, or 
+                        just want to say hi, feel free to reach out!
+                    </p>
+                    <div class="contact-cards">
+                        <div class="contact-card" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="card-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>Email Me</h4>
+                                <a href="mailto:rohankapoor1904@gmail.com">rohankapoor1904@gmail.com</a>
+                                <span class="response-time">Usually responds within 24 hours</span>
+                            </div>
+                        </div>
+                        <div class="contact-card" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="card-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>Call Me</h4>
+                                <a href="tel:+919518437415">+91 95184 37415</a>
+                                <span class="response-time">Available Mon-Sat, 10AM-8PM IST</span>
+                            </div>
+                        </div>
+                        <div class="contact-card" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="card-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>Location</h4>
+                                <span>Kurukshetra, Haryana, India</span>
+                                <span class="response-time">Open to remote work worldwide</span>
+                            </div>
+                        </div>
+                        <div class="contact-card" data-aos="zoom-in" data-aos-delay="500">
+                            <div class="card-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/rohankapoor1904" target="_blank">Connect with me</a>
+                                <span class="response-time">500+ Connections</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social" data-aos="fade-up" data-aos-delay="600">
+                        <a href="https://github.com/Rohankapoor1904" target="_blank" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/rohankapoor1904" target="_blank" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:rohankapoor1904@gmail.com" class="social-link" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://t.me/rohankapoor1904" target="_blank" class="social-link" title="Telegram">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="https://discord.com/" target="_blank" class="social-link" title="Discord">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left" data-aos-delay="200">
+                    <div class="form-group" data-aos="fade-up" data-aos-delay="300">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group" data-aos="fade-up" data-aos-delay="400">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group" data-aos="fade-up" data-aos-delay="500">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Subject</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group" data-aos="fade-up" data-aos-delay="600">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-aos="fade-up" data-aos-delay="700">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="stat-icon"><i class="fas fa-code"></i></div>
+                    <div class="stat-number counter" data-target="15000">0</div>
+                    <div class="stat-label">Lines of Code</div>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="stat-icon"><i class="fas fa-coffee"></i></div>
+                    <div class="stat-number counter" data-target="500">0</div>
+                    <div class="stat-label">Cups of Coffee</div>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="stat-icon"><i class="fas fa-code-branch"></i></div>
+                    <div class="stat-number counter" data-target="200">0</div>
+                    <div class="stat-label">Git Commits</div>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="stat-icon"><i class="fas fa-users"></i></div>
+                    <div class="stat-number counter" data-target="50">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's work together to bring your ideas to life. I'm available for freelance projects, internships, and full-time opportunities.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Start a Project</span>
+                        <i class="fas fa-rocket"></i>
+                    </a>
+                    <a href="rohan_kapoor.pdf" class="btn btn-outline" download>
+                        <span>Download Resume</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span>&lt;RK/&gt;</span>
+                    </div>
+                    <p>Passionate software developer building digital experiences that make a difference. Let's create something amazing together.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/Rohankapoor1904" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/rohankapoor1904" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:rohankapoor1904@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://t.me/rohankapoor1904" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Android Apps</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Python Development</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Bot Development</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> API Integration</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> rohankapoor1904@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +91 95184 37415</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Kurukshetra, Haryana, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-text">
+                    Designed & Built with <i class="fas fa-heart"></i> by <span>Rohan Kapoor</span>
+                </p>
+                <p class="copyright">
+                    &copy; 2024 Rohan Kapoor. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
